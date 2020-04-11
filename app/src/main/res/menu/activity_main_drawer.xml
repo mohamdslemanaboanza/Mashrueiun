@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/who_us"
+            android:icon="@drawable/ic_error_black_24dp"
+            android:title="من نحن" />
+
+        <item
+            android:id="@+id/desk"
+            android:icon="@drawable/ic_slideshow"
+            android:title="الوصف" />
+
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/email"
+            android:title="تواصل معنا" />
+
+        <item
+            android:id="@+id/MyInfo"
+            android:icon="@drawable/ic_persone"
+            android:title="معلوماتي" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share"
+            android:title="مشاركة التطبيق" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title=" " />
+
+
+    </group>
+
+
+</menu>

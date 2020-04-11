@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "807556808858",
+    "firebase_url": "https://donation-eb043.firebaseio.com",
+    "project_id": "donation-eb043",
+    "storage_bucket": "donation-eb043.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807556808858:android:b98ff1937642070710df23",
+        "android_client_info": {
+          "package_name": "com.AbuAnzeh.Donation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807556808858-pfu9d864b9c8c8aebui65d168u0qeguv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.AbuAnzeh.Donation",
+            "certificate_hash": "a1beed2b4c2edf7c32eba0467c18408d71c10d53"
+          }
+        },
+        {
+          "client_id": "807556808858-89a1cga7o4scvs20itjia6jm6nfs6ubu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQHsPTymljLCQuKiE2YJBzQjJrnRXrHYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807556808858-89a1cga7o4scvs20itjia6jm6nfs6ubu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center|top"
+    android:layout_marginTop="5dp"
+    android:layout_height="match_parent">
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/commit"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:text="تطبيق رائع"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>

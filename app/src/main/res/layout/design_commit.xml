@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/mohmad"
+        android:elevation="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <TextView
+        android:id="@+id/commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Mohmad Sleman AbuAnze \n\n الله يعطيكم العافيه"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/buttonshape_commit"
+        />
+
+
+</LinearLayout>

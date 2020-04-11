@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">نِعمة</string>
+
+    <string name="desc_one">
+
+       \n تطبيق نِعمة يساعد على تقليل الإهدار
+الطعام من خلال نشر الطعام الزائد
+\nداخل التطبيق.
+وايضا التبرع بأشياء غير الاكل التي يمكن شخص ما يحتاجها
+    </string>
+
+    <string name="desc_two">
+       \n من خلال تطبيق نِعمة يمكنك من تقديم
+الطعام للأشخاص المحتاجين.
+\n        يقول النبي -صلى الله عليه - وسلم :
+
+    </string>
+
+    <string name="desc_two_count">
+
+«أَحَبُّ الأَعْمَالِ إِلَى اللَّهِ سُرُورٌ تُدْخِلُ
+ \nعَلَى مُسْلِمٍ
+ ، أَوْ تَكْشِفُ عَنْهُ كُرْبَة\nً
+، أَوْ تَطْرُدُ عَنْهُ جُوعًا ، أَوْ تَقْضِي عَنْهُ دَيْنًا»\n
+
+
+    </string>
+
+    <string name="desk_three">
+        اذا كنت صاحب مطعم او فندق
+ساعدنا في عدم اهدار الطعام
+من خلال نشر الاكل الزائد في التطبيق
+من خلال خطوات بسيطة فقط
+    </string>
+
+    <string name="desk_four">
+        يلا نبدأ انا و انت وقف اهدار الطعام
+الزائد من خلال هذا التطبيق البسيط\n
+ونساعد بعضنا حتى ما يضل جائع\n
+بالأردن .
+    </string>
+
+    <string name="permission_info">App requires permission to Storage to view images.</string>
+    <string name="permission_force">App requires permission to Storage to view images. Tap Settings and go to Permissions to grant permission.</string>
+    <string name="permission_ok">OK</string>
+    <string name="permission_settings">Settings</string>
+    <string name="permission_package" translatable="false"><![CDATA[<string name=\"permission_package\">package</string>]]></string>
+
+
+    <string name="album_view">Select photo album</string>
+    <string name="image_view">Tap to select images</string>
+
+
+    <string name="limit_exceeded" translatable="false">Can select a maximum of %d images</string>
+    <string name="tab_text_1">j</string>
+    <string name="tab_text_2">j</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="description">
+        تطبيق نِعمة يحارب هدر الطعام الزائد من خلال التبرع به من خلال هذا التطبيق البسيط
+        والتبرع به للأشخاص المحتاجين له \n
+
+        وأدخال السعادة على هؤلاء الاشخاص حيث قال النبي - صلى الله عليه وسلم -
+        \n
+        «أَحَبُّ الأَعْمَالِ إِلَى اللَّهِ سُرُورٌ تُدْخِلُ
+ \nعَلَى مُسْلِمٍ
+ ، أَوْ تَكْشِفُ عَنْهُ كُرْبَة\nً
+، أَوْ تَطْرُدُ عَنْهُ جُوعًا ، أَوْ تَقْضِي عَنْهُ دَيْنًا»\n
+        وايضا امكانية  توزيع طروط الخير \n
+
+
+
+    </string>
+
+    <string name="facebook_app_id">1146761418994947</string>
+    <string name="fb_login_protocol_scheme">fb1146761418994947</string>
+
+
+</resources>
