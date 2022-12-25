@@ -12,7 +12,7 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:elevation="5dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,17 +20,19 @@
         app:layout_constraintTop_toTopOf="parent">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/header"
                 android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:drawableLeft="@drawable/ic_close"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_back"
                 android:elevation="1dp"
-                android:gravity="center"
+                android:gravity="center|right"
+                android:drawablePadding="10dp"
                 android:paddingRight="20dp"
                 android:textColor="#fff"
+                android:fontFamily="@font/boutros_dinkum_light"
                 android:textSize="20sp"
                 android:text="تواصل معنا"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -47,7 +49,7 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/logo"
-        android:layout_width="150dp"
+        android:layout_width="100dp"
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
@@ -59,20 +61,90 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
 
-    <EditText
-        android:id="@+id/text"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutMessage"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:background="@drawable/border"
-        android:elevation="3dp"
-        android:gravity="top"
-        android:hint="نص الرسالة ... "
-        android:padding="10dp"
-        android:textColor="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo" />
+        app:layout_constraintTop_toBottomOf="@+id/logo">
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:fontFamily="@font/boutros_dinkum_medium"
+            android:layout_gravity="center"
+            android:drawablePadding="18dp"
+            android:imeOptions="actionDone"
+            android:gravity="top"
+            android:hint="نص الرسالة ... "
+            android:textColor="@color/colorPrimaryDark"
+            android:inputType="text"
+            android:textSize="20dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/boutros_dinkum_light"
+        android:text="أو من خلال المواقع التالية"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutMessage" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <ImageView
+            android:id="@+id/what"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/whatsapp" />
+
+        <ImageView
+            android:id="@+id/email"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/gmail" />
+
+        <ImageView
+            android:id="@+id/link"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/linkedin" />
+    </LinearLayout>
+
+
 
     <Button
         android:id="@+id/send"
@@ -83,6 +155,7 @@
         android:background="@drawable/buttonshape"
         android:elevation="3dp"
         android:gravity="center"
+        android:fontFamily="@font/boutros_dinkum_medium"
         android:text="أرسال"
         android:textColor="#fff"
         android:textSize="18sp"

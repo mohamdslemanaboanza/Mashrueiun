@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    app:cardCornerRadius="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/no_internet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/boutros_dinkum_bold"
+            android:gravity="center"
+            android:text="عفوا ، لا يوجد إتصال بالإنترنت ، تحقق من إتصالك بالانترنت"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Reload"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="إعادة تحميل"
+        android:textAllCaps="false"
+        android:background="@drawable/buttonshape"
+        android:textColor="#fff"
+        android:layout_margin="15dp"
+        android:textSize="17sp"
+        android:elevation="7dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/boutros_dinkum_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.cardview.widget.CardView>

@@ -1,20 +1,22 @@
 <resources>
-    <string name="app_name">نِعمة</string>
+    <string name="app_name">مشروعي</string>
 
     <string name="desc_one">
-
-       \n تطبيق نِعمة يساعد على تقليل الإهدار
+        الجزء الرئيسي من
+        تطبيق تكافل  هو المساعده على تقليل إهدار
 الطعام من خلال نشر الطعام الزائد
-\nداخل التطبيق.
-وايضا التبرع بأشياء غير الاكل التي يمكن شخص ما يحتاجها
+داخل التطبيق.
+وايضا التبرع بأشياء عينية التي يمكن شخص ما يحتاجها
     </string>
 
     <string name="desc_two">
-       \n من خلال تطبيق نِعمة يمكنك من تقديم
+        من خلال تطبيق تكافل يمكنك من تقديم
 الطعام للأشخاص المحتاجين.
-\n        يقول النبي -صلى الله عليه - وسلم :
+        يقول النبي -صلى الله عليه - وسلم :
 
     </string>
+    <string name="enter_your_info">قم بإدخال معلوماتك</string>
+    <string name="_continue">متابعة</string>
 
     <string name="desc_two_count">
 
@@ -27,17 +29,13 @@
     </string>
 
     <string name="desk_three">
-        اذا كنت صاحب مطعم او فندق
-ساعدنا في عدم اهدار الطعام
-من خلال نشر الاكل الزائد في التطبيق
-من خلال خطوات بسيطة فقط
+        تطبيق تكافل يساعدك على التبرع بلأشياء الى الأشخاص التي يمكن ان تكون مفيدة لهم
     </string>
 
     <string name="desk_four">
-        يلا نبدأ انا و انت وقف اهدار الطعام
-الزائد من خلال هذا التطبيق البسيط\n
-ونساعد بعضنا حتى ما يضل جائع\n
-بالأردن .
+        يلا نبدأ انا و انت لحتى نحقق مفهوم التكافل الاجتماعي \n
+ونساعد بعضنا \n
+ .
     </string>
 
     <string name="permission_info">App requires permission to Storage to view images.</string>
@@ -47,7 +45,7 @@
     <string name="permission_package" translatable="false"><![CDATA[<string name=\"permission_package\">package</string>]]></string>
 
 
-    <string name="album_view">Select photo album</string>
+    <string name="album_view">حدد ألبوم الصور</string>
     <string name="image_view">Tap to select images</string>
 
 
@@ -59,23 +57,41 @@
 
 
     <string name="description">
-        تطبيق نِعمة يحارب هدر الطعام الزائد من خلال التبرع به من خلال هذا التطبيق البسيط
-        والتبرع به للأشخاص المحتاجين له \n
 
-        وأدخال السعادة على هؤلاء الاشخاص حيث قال النبي - صلى الله عليه وسلم -
-        \n
-        «أَحَبُّ الأَعْمَالِ إِلَى اللَّهِ سُرُورٌ تُدْخِلُ
- \nعَلَى مُسْلِمٍ
- ، أَوْ تَكْشِفُ عَنْهُ كُرْبَة\nً
-، أَوْ تَطْرُدُ عَنْهُ جُوعًا ، أَوْ تَقْضِي عَنْهُ دَيْنًا»\n
-        وايضا امكانية  توزيع طروط الخير \n
-
-
+        تطبيق مشروعي هو تطبيق خُصص لدعم المشاريع الصغيرة الخاصة والريادية للعائلات من خلال نشر المنتجات التي تقوم العائلة بإنتاجها منزليا فقط مثل الطعام أو الحلويات أو حرف يدوية .
+       \n\n
+        تطبيق مشروعي يهدف الى دعم المنتج الوطني -المنزلي- التي توفر للعائلات دخل مناسب لها.
+        \n\n
+        من خلال تطبيق مشروعي يمكنك من انشاء متجرك -المنزلي- ونشر من خلاله منتجاتك المنزليه .
+        \n\n
+        تطبيق مشروعي خدمه حكوميه تهدف الى دعم الاسر وادارة المشاريع الصغيرة .
 
     </string>
 
+    <string name="howUseApp">
+        1- انشاء حساب بادخال الاسم والرقم الهاتف واختيار المحافظة.
+        \n\n
+        2- انشاء متجر من خلال زر - متجري - وادخال بيانات المتجر المزل كالاسم ونوع المتجر ووصف المتجر وموقع المتجر .
+                \n\n
+        3- يتم ارسال الطلب الى الجهات المختصة التي بدورها تعمل على التحقق من ان المتجر يطابق شروط انشاء المتجر.
+                \n\n
+        4- بعد الموافقة على انشاء متجر من خلال ارسال اشعار لك يسمح بإضافة المنتجات المنزلية .
+                \n\n
+        5- سوف يتم التحقق من كل منتج ينشر داخل التطبيق بحيث يكون المنتج مطابق للشروط .
+    </string>
     <string name="facebook_app_id">1146761418994947</string>
     <string name="fb_login_protocol_scheme">fb1146761418994947</string>
+    <string name="drawer_open">d</string>
+    <string name="drawer_close" />
 
+    <string name="google_maps_key" translatable="false">AIzaSyBbB_l8vjgro3Swtsh74N1dyx5c_xJu-qI</string>
+    <string name="title_activity_location_picker">LocationPickerActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

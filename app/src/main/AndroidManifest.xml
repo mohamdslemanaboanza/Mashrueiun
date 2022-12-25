@@ -1,61 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.AbuAnzeh.Donation">
+    package="com.AbuAnzeh.mashruei">
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:allowBackup="true"
+        android:name=".MyApplication"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning">
+        android:windowSoftInputMode="stateHidden|adjustPan"
+        tools:targetApi="cupcake">
+        <activity
+            android:name=".Activities.LocationPickerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_location_picker"
+            android:theme="@style/NoActionBar"
+             />
+        <activity
+            android:name=".Activities.SearchProductActivity"
+            android:theme="@style/NoActionBar" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAbln6kpTmHouiEvJWsEOGUnvj3MgSDOvc" />
+            android:value="AIzaSyBbB_l8vjgro3Swtsh74N1dyx5c_xJu-qI" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2046241422238764~3503622393" />
 
-
+        <activity
+            android:name=".Activities.CreateProductActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Activities.DetailsCenterActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Activities.UpdateProductActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Activities.UpdateStoreActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:theme="@style/NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Activities.MyStoreActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Activities.DetailsPostActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Activities.DetailsOrderActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Activities.ChangePassActivity"
+            android:theme="@style/NoActionBar" />
         <activity
             android:name=".Activities.UpdateInfoActivity"
             android:theme="@style/NoActionBar" />
         <activity
-            android:name=".Activities.LoginActivity"
+            android:name=".Activities.NotificationActivity"
             android:theme="@style/NoActionBar" />
         <activity
-            android:name=".Activities.RegistrationActivity"
+            android:name=".Activities.DetailsActivity"
+            android:theme="@style/NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Activities.ProductActivity"
+            android:theme="@style/NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Activities.CreateStoreActivity"
             android:theme="@style/NoActionBar" />
         <activity
-            android:name=".Activities.IntroActivity"
+            android:name=".Activities.SettingActivity"
             android:theme="@style/NoActionBar" />
-        <activity android:name=".Activities.CommitActivity" android:theme="@style/NoActionBar"  />
         <activity
-            android:name=".Activities.DetailsDonationActivity"
+            android:name=".Activities.DeskAppActivity"
             android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Activities.StoresActivity"
+            android:theme="@style/NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Activities.MyAccountActivity"
+            android:theme="@style/NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
             android:name=".Activities.ContactUsActivity"
             android:theme="@style/NoActionBar" />
         <activity
             android:name=".Activities.WhoAreWeActivity"
             android:theme="@style/NoActionBar" />
-        <activity android:name=".Activities.LocationActivity" />
-        <activity
-            android:name=".Activities.AlbumSelectActivity"
-            android:theme="@style/MultipleImageSelectTheme" />
-        <activity
-            android:name=".Activities.ImageSelectActivity"
-            android:theme="@style/MultipleImageSelectTheme" />
-        <activity
-            android:name=".Activities.CustomPhotoGalleryActivity"
-            android:theme="@style/NoActionBar" />
-        <activity
-            android:name=".Activities.ActivityAddDonation"
-            android:theme="@style/NoActionBar">
-            <meta-data
-                android:name="com.google.android.geo.API_KEY"
-                android:value="AIzaSyBsr9qRl-r4csxCXRRe9RtGvRYZLQ0jqJ0" />
-        </activity>
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
@@ -76,10 +125,22 @@
             android:name=".Activities.MyIntro"
             android:theme="@style/NoActionBar" />
         <activity
-            android:name=".Activities.MainActivity"
+            android:name=".Activities.SignUpActivity"
             android:theme="@style/NoActionBar" />
         <activity
+            android:name=".Activities.LogInActivity"
+            android:theme="@style/NoActionBar" /> <!-- Firebase Service -->
+        <service
+            android:name=".HelperClass.MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
             android:name=".Activities.SplashScreenActivity"
+            android:exported="true"
             android:theme="@style/NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -87,18 +148,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
     </application>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-
 
 </manifest>

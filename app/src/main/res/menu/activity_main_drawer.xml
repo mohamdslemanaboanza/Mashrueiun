@@ -25,18 +25,43 @@
             android:icon="@drawable/ic_persone"
             android:title="معلوماتي" />
 
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+
         <item
             android:id="@+id/share"
             android:icon="@drawable/share"
             android:title="مشاركة التطبيق" />
 
+
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="تقييم التطبيق" />
+
+        <item
+            android:id="@+id/create_account"
+            android:icon="@drawable/ic_persone"
+            android:title="أنشاء حساب" />
+
+
         <item
             android:id="@+id/logout"
             android:icon="@drawable/logout"
-            android:title=" " />
+            android:title="تسجيل خروج" />
+
+
+
+
+
+
+
+
 
 
     </group>
-
 
 </menu>

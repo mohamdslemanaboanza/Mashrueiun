@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/order"
+        android:enabled="true"
+        android:icon="@drawable/order_mune"
+        android:title="الطلبات"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/cart"
+        android:enabled="true"
+        android:icon="@drawable/shopping_icone"
+        android:title="السلة"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/healthcare"
+        android:enabled="true"
+        android:title="متجري"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/home_page"
+        android:enabled="true"
+        android:icon="@drawable/home_page"
+        android:title="الرئيسية"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/setting"
+        android:enabled="true"
+        android:icon="@drawable/settings"
+        android:title="المزيد"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/drawable/ic_location_pin.xml" value="0.2815" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/drawable/main_sheet.xml" value="0.2815" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/drawable/tv_background.xml" value="0.2815" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/activity_create_store.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/activity_desk_app.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/activity_details.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/activity_details_center.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/activity_location_picker.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/activity_sign_up.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/activity_splach_screen.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/activity_who_are_we.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/confirm_the_purchase.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/custom_layout.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/dilog_login.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/dilog_success.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/enter_code.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/fragment_cart.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/fragment_order.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/fragment_product_store.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/fragment_product_store_main.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/full_image_dilog.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Mohammad Abu Anzeh/Desktop/tacfull/Donation/app/src/main/res/layout/item_cart.xml" value="0.3009833262077811" />
+      </map>
+    </option>
   </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.DetailsOrderActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_back"
+                android:elevation="1dp"
+                android:gravity="right|center"
+                android:drawablePadding="10dp"
+                android:paddingRight="20dp"
+                android:fontFamily="@font/boutros_dinkum_medium"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:text="تفاصيل الطلب"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:gravity="right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="أسم المنتج "
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/boutros_dinkum_medium"
+            />
+
+
+        <TextView
+            android:id="@+id/nameProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="منتج خبز"
+            android:fontFamily="@font/boutros_dinkum_light"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="تفاصيل"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/boutros_dinkum_medium"
+            />
+
+
+        <TextView
+            android:id="@+id/deskProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="منتج خبز"
+            android:fontFamily="@font/boutros_dinkum_light"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="الكمية"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/boutros_dinkum_medium"
+            />
+
+
+        <TextView
+            android:id="@+id/quantityProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="1"
+            android:fontFamily="@font/boutros_dinkum_light"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="السعر"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/boutros_dinkum_medium"
+            />
+
+
+        <TextView
+            android:id="@+id/priceProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="10 د.أ"
+            android:fontFamily="@font/boutros_dinkum_light"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="معلومات المشتري"
+            android:drawableRight="@drawable/icone_persone"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/boutros_dinkum_medium"
+            />
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="الاسم : محمد سليمان ابوعنزة"
+            android:fontFamily="@font/boutros_dinkum_light"
+            />
+
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="رقم الموبايل : 0789045025"
+            android:fontFamily="@font/boutros_dinkum_light"
+            />
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="المدينة : الزرقاء"
+            android:fontFamily="@font/boutros_dinkum_light"
+            />
+
+        <TextView
+            android:id="@+id/hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="ملاحظات : لا يوجد "
+            android:fontFamily="@font/boutros_dinkum_light"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="عنوان التفصيل"
+            android:drawableRight="@drawable/ic_location"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/boutros_dinkum_medium"
+            />
+
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="عمان"
+            android:fontFamily="@font/boutros_dinkum_light"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <com.omega_r.libs.OmegaCenterIconButton
+                android:id="@+id/makePhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_phone"
+                android:drawableTint="#fff"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/buttonshape"
+                android:elevation="3dp"
+                android:fontFamily="@font/boutros_dinkum_medium"
+                android:text="تواصل"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+            <com.omega_r.libs.OmegaCenterIconButton
+                android:id="@+id/delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:layout_weight="1"
+                android:elevation="3dp"
+                android:drawableStart="@drawable/ic_baseline_delete_24"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:fontFamily="@font/boutros_dinkum_medium"
+                android:text="حذف"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
