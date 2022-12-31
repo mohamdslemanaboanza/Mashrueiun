@@ -122,7 +122,11 @@ public class DetailsActivity extends AppCompatActivity {
             case "أخرى":
                 typeStore = "Other";
                 break;
+
+            default: typeStore = StoreType;
         }
+
+
         databaseStores = FirebaseDatabase.getInstance().getReference("Stores").child(typeStore);
 
         Log.d("idProduct", idProduct);

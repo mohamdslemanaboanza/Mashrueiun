@@ -187,6 +187,7 @@ public class StoresActivity extends AppCompatActivity {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
+                        dataSnapshot.hasChildren();
                         for (DataSnapshot dataSnapshot1 : dataSnapshot.getChildren()) {
 
                             final StoreModel store = dataSnapshot1.getValue(StoreModel.class);

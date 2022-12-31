@@ -254,7 +254,7 @@
         android:elevation="3dp"
         android:layout_marginTop="15dp"
         android:fontFamily="@font/boutros_dinkum_medium"
-        android:text="انشى متجرك المنزلي الان"
+        android:text="انشاء متجرك المنزلي الان"
         android:textColor="#fff"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"

@@ -324,7 +324,7 @@ public class CartFragment extends Fragment {
 
     }
 
-    public static class AdapterCart extends RecyclerView.Adapter<AdapterCart.ImageViewHolder> {
+    public class AdapterCart extends RecyclerView.Adapter<AdapterCart.ImageViewHolder> {
         private Context context;
         private List<ProductModel> mUploads;
         Activity mActivity;
@@ -394,6 +394,11 @@ public class CartFragment extends Fragment {
 
                             if (task.isSuccessful()) {
                                 mUploads.remove(i);
+                                if (mUploads.isEmpty()) {
+                                    textView9.setVisibility(View.VISIBLE);
+                                    imageView4.setVisibility(View.VISIBLE);
+                                    confirmPay.setVisibility(View.GONE);
+                                }
                                 notifyDataSetChanged();
                             } else {
                                 Toast.makeText(context, task.getException().getLocalizedMessage(), Toast.LENGTH_SHORT).show();

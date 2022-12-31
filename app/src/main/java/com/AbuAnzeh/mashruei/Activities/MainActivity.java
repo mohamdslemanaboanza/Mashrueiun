@@ -24,15 +24,18 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.IdRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.AbuAnzeh.mashruei.Fragment.CartFragment;
+import com.AbuAnzeh.mashruei.Fragment.HomeFragment;
 import com.AbuAnzeh.mashruei.Fragment.OrderFragment;
+import com.AbuAnzeh.mashruei.Fragment.SettingFragment;
 import com.AbuAnzeh.mashruei.HelperClass.CheckInternetClass;
 import com.AbuAnzeh.mashruei.HelperClass.CustomTypefaceSpan;
 import com.AbuAnzeh.mashruei.HelperClass.ModelBottomSheet;
-import com.AbuAnzeh.mashruei.Adpter.CustomBottomNavigationView1;
-import com.AbuAnzeh.mashruei.Fragment.HomeFragment;
-import com.AbuAnzeh.mashruei.Fragment.SettingFragment;
-import com.AbuAnzeh.mashruei.Models.ProductModel;
 import com.AbuAnzeh.mashruei.R;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.bottomnavigation.BottomNavigationItemView;
@@ -43,11 +46,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.messaging.FirebaseMessaging;
-
-import androidx.annotation.IdRes;
-import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity   {
 
@@ -306,7 +304,11 @@ public class MainActivity extends AppCompatActivity   {
 
         TextView text = badge.findViewById(R.id.notificationsBadgeTextView);
         text.setText(value);
-        itemView.addView(badge);
+        if (value.equals("0")) {
+            itemView.removeView(badge);
+        } else {
+            itemView.addView(badge);
+        }
     }
 
     public static void removeBadge(BottomNavigationView bottomNavigationView, @IdRes int itemId) {
